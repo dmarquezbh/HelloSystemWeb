@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DADOS\DADOS.csproj" />
+    <ProjectReference Include="..\Framework\Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Administrativo\Financeiro\" />
+    <Folder Include="Administrativo\Faturamento\" />
+    <Folder Include="Administrativo\Convenios\" />
+    <Folder Include="Administrativo\Suprimentos\" />
+    <Folder Include="Assistencial\Clinico\" />
+    <Folder Include="Assistencial\Corporativo\" />
+    <Folder Include="Assistencial\Documentos\" />
+    <Folder Include="Assistencial\Laboratorio\" />
+    <Folder Include="Controladores\" />
+  </ItemGroup>
+
+</Project>

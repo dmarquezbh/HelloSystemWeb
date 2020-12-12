@@ -1,0 +1,182 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Conversoes\Numero.cs" Link="Conversoes\Numero.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Dados\Dataset.cs" Link="Dados\Dataset.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Email\EnviaEmail.cs" Link="Email\EnviaEmail.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\Criptografia.cs" Link="Seguranca\Criptografia.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\IJsonSerializer.cs" Link="Seguranca\IJsonSerializer.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\JWT.cs" Link="Seguranca\JWT.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\JWT\DefaultJsonSerializer.cs" Link="Seguranca\JWT\DefaultJsonSerializer.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\JWT\Ensure.cs" Link="Seguranca\JWT\Ensure.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\JWT\exceptions\CryptographicException.cs" Link="Seguranca\JWT\exceptions\CryptographicException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\JWT\exceptions\SignatureVerificationException.cs" Link="Seguranca\JWT\exceptions\SignatureVerificationException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\LDAP\ADFieldNameAttribute.cs" Link="Seguranca\LDAP\ADFieldNameAttribute.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\LDAP\ADUser.cs" Link="Seguranca\LDAP\ADUser.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\LDAP\eADUserAccountType.cs" Link="Seguranca\LDAP\eADUserAccountType.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\LDAP\LDAP.cs" Link="Seguranca\LDAP\LDAP.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Seguranca\Login.cs" Link="Seguranca\Login.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\DataSets.cs" Link="Utilidades\DataSets.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\ParametrosXml.cs" Link="Utilidades\ParametrosXml.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\TypeSwitch.cs" Link="Utilidades\TypeSwitch.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eAmbiente.cs" Link="Enum\eAmbiente.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eAplicativos.cs" Link="Enum\eAplicativos.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eAplicativo_Modulo.cs" Link="Enum\eAplicativo_Modulo.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eAtributo.cs" Link="Enum\eAtributo.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eBaseEnumErp.cs" Link="Enum\eBaseEnumErp.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eCaixa.cs" Link="Enum\eCaixa.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eClassificacaoProduto.cs" Link="Enum\eClassificacaoProduto.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eClient.cs" Link="Enum\eClient.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eCobertoPelaOperadora.cs" Link="Enum\eCobertoPelaOperadora.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eCobranca.cs" Link="Enum\eCobranca.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eContaAuditoria.cs" Link="Enum\eContaAuditoria.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eEnderecoTipo.cs" Link="Enum\eEnderecoTipo.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eEventosJavascript.cs" Link="Enum\eEventosJavascript.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eFaturamentoConta.cs" Link="Enum\eFaturamentoConta.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eFormaPagamento.cs" Link="Enum\eFormaPagamento.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eHistoricoEspecialidade.cs" Link="Enum\eHistoricoEspecialidade.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eHistoricoUnidadeOrganizacional.cs" Link="Enum\eHistoricoUnidadeOrganizacional.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eInterfaces.cs" Link="Enum\eInterfaces.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eIntervaloAplicacaoMedicamento.cs" Link="Enum\eIntervaloAplicacaoMedicamento.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eJustificativa.cs" Link="Enum\eJustificativa.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eLaboratorio.cs" Link="Enum\eLaboratorio.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eMascara.cs" Link="Enum\eMascara.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eModulos.cs" Link="Enum\eModulos.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eMovimentacaoProdutoTipo.cs" Link="Enum\eMovimentacaoProdutoTipo.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eOperadora.cs" Link="Enum\eOperadora.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eOperadoraSus.cs" Link="Enum\eOperadoraSus.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eOperadores.cs" Link="Enum\eOperadores.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eOrdemCompra.cs" Link="Enum\eOrdemCompra.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eOrdemServico.cs" Link="Enum\eOrdemServico.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\ePaisEstadoCidade.cs" Link="Enum\ePaisEstadoCidade.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eParametrizacaoModulo.cs" Link="Enum\eParametrizacaoModulo.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eParametrizacaoSistema.cs" Link="Enum\eParametrizacaoSistema.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\ePeriodicidade.cs" Link="Enum\ePeriodicidade.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\ePessoa.cs" Link="Enum\ePessoa.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\ePessoaEntidade.cs" Link="Enum\ePessoaEntidade.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eRegras.cs" Link="Enum\eRegras.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eServico.cs" Link="Enum\eServico.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eServicoProdutoCategoria.cs" Link="Enum\eServicoProdutoCategoria.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eServicoProdutoTabela.cs" Link="Enum\eServicoProdutoTabela.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eSimNao.cs" Link="Enum\eSimNao.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eSituacaoAprovacaoItemOPME.cs" Link="Enum\eSituacaoAprovacaoItemOPME.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eSituacaoItemProduto.cs" Link="Enum\eSituacaoItemProduto.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eSituacaoNotaEmitida.cs" Link="Enum\eSituacaoNotaEmitida.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eSqlException.cs" Link="Enum\eSqlException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eStatusEspecialidade.cs" Link="Enum\eStatusEspecialidade.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eStatusListaEsperaAgendacc.cs" Link="Enum\eStatusListaEsperaAgendacc.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eStatusSolicitacao.cs" Link="Enum\eStatusSolicitacao.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eStatusUnidadeOrganizacional.cs" Link="Enum\eStatusUnidadeOrganizacional.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoAlta.cs" Link="Enum\eTipoAlta.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoDigitoVerificador.cs" Link="Enum\eTipoDigitoVerificador.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoDiversos.cs" Link="Enum\eTipoDiversos.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoEsperaCC.cs" Link="Enum\eTipoEsperaCC.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoFeriado.cs" Link="Enum\eTipoFeriado.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoFormaPagamento.cs" Link="Enum\eTipoFormaPagamento.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoInternacaoUnidade.cs" Link="Enum\eTipoInternacaoUnidade.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoOcorrenciaDocumento.cs" Link="Enum\eTipoOcorrenciaDocumento.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoOcorrenciaLog.cs" Link="Enum\eTipoOcorrenciaLog.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipos.cs" Link="Enum\eTipos.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoSolicitacao.cs" Link="Enum\eTipoSolicitacao.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eTipoTabela.cs" Link="Enum\eTipoTabela.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eUnidadeFisica.cs" Link="Enum\eUnidadeFisica.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eUnidadeOrganizacional.cs" Link="Enum\eUnidadeOrganizacional.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eUnidadeOrganizacionalParametrizado.cs" Link="Enum\eUnidadeOrganizacionalParametrizado.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eUsuario.cs" Link="Enum\eUsuario.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\EnumErp\eVersaoSistema.cs" Link="Enum\eVersaoSistema.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Banco\Atributos.cs" Link="Banco\Atributos.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Banco\DataWorker.cs" Link="Banco\DataWorker.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Banco\GeradorSQL.cs" Link="Banco\GeradorSQL.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Banco\SQL.cs" Link="Banco\SQL.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Banco\SQL2.cs" Link="Banco\SQL2.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Banco\SqlBuilder.cs" Link="Banco\SqlBuilder.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\CacheGlobal\CacheObjetos.cs" Link="CacheGlobal\CacheObjetos.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\CacheGlobal\IObjeto.cs" Link="CacheGlobal\IObjeto.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\CacheTransacional\Controle_Cache.cs" Link="CacheTransacional\Controle_Cache.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\CacheTransacional\Controle_Cache2.cs" Link="CacheTransacional\Controle_Cache2.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\CacheTransacional\Transacao.cs" Link="CacheTransacional\Transacao.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\CacheTransacional\Transacao2.cs" Link="CacheTransacional\Transacao2.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Conversoes\ConvertUtils.cs" Link="Conversoes\ConvertUtils.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Conversoes\Data.cs" Link="Conversoes\Data.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Conversoes\String.cs" Link="Conversoes\String.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\ExceptionERP\CatastrophicException.cs" Link="ExceptionERP\CatastrophicException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\ExceptionERP\ExceptionERP.cs" Link="ExceptionERP\ExceptionERP.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\ExceptionERP\ExceptionWarning.cs" Link="ExceptionERP\ExceptionWarning.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\ExceptionERP\FrameworkException.cs" Link="ExceptionERP\FrameworkException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\ExceptionERP\SessionException.cs" Link="ExceptionERP\SessionException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\ExceptionERP\UserException.cs" Link="ExceptionERP\UserException.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Log\LogArquivo.cs" Link="Log\LogArquivo.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Log\LogEventViewer.cs" Link="Log\LogEventViewer.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\CheckBoxList.cs" Link="Utilidades\CheckBoxList.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\DataGrids.cs" Link="Utilidades\DataGrids.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\DateTimeUtils.cs" Link="Utilidades\DateTimeUtils.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\DetailsViews.cs" Link="Utilidades\DetailsViews.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\DictionaryUtils.cs" Link="Utilidades\DictionaryUtils.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\DropDowns.cs" Link="Utilidades\DropDowns.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\Paginacao.cs" Link="Utilidades\Paginacao.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\PDF.cs" Link="Utilidades\PDF.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\Socket.cs" Link="Utilidades\Socket.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Utilidades\StringUtils.cs" Link="Utilidades\StringUtils.cs" />
+    <Compile Include="..\..\..\Hospitale - Dev - vs2013\Framework\Xml\XmlUtils.cs" Link="Xml\XmlUtils.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web">
+      <HintPath>..\..\lib\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>..\..\lib\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>..\..\lib\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices.AccountManagement">
+      <HintPath>..\..\lib\System.DirectoryServices.AccountManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <HintPath>..\..\lib\System.DirectoryServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ActiveDs">
+      <HintPath>..\..\lib\Interop.ActiveDs.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>..\..\lib\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>..\..\lib\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>..\..\lib\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>..\..\lib\System.Drawing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Conversoes\" />
+    <Folder Include="ExceptionERP\" />
+    <Folder Include="Dados\" />
+    <Folder Include="Banco\" />
+    <Folder Include="CacheTransacional\" />
+    <Folder Include="CacheGlobal\" />
+    <Folder Include="Email\" />
+    <Folder Include="Seguranca\JWT\exceptions\" />
+    <Folder Include="Seguranca\LDAP\" />
+    <Folder Include="Xml\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
